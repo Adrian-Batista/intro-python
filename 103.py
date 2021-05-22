@@ -17,17 +17,17 @@ book3 = 'Fooled by Randomness by Nassim Nicholas Taleb, 2001'
 lista = book1.split('by')
 resposta1 = "".join(lista[0:-1:])
 resposta1 = resposta1.strip()
-len(resposta1)
+print('caracteres: ' + str(len(resposta1)))
 
 lista = book2.split('by')
 resposta2 = "".join(lista[0:-1:])
 resposta2 = resposta2.strip()
-len(resposta2)
+print('caracteres: ' + str(len(resposta2)))
 
 lista = book3.split('by')
 resposta3 = "".join(lista[0:-1:])
 resposta3 = resposta3.strip()
-len(resposta3)
+print('caracteres: ' + str(len(resposta3)))
 
 
 print("------------------------")
@@ -43,13 +43,13 @@ palindrome_four = 'caneta azul'
 
 
 verifica = palindrome_one.replace(" ", "").lower()
-verifica == verifica[::-1]
+print(verifica == verifica[::-1])
 
 verifica = palindrome_two.replace(" ", "").lower()
-verifica == verifica[::-1]
+print(verifica == verifica[::-1])
 
 verifica = palindrome_three.replace(" ", "").lower()
-verifica == verifica[::-1]
+print(verifica == verifica[::-1])
 
 verifica = palindrome_four.replace(" ", "").lower()
-verifica == verifica[::-1]
+print(verifica == verifica[::-1])

@@ -56,8 +56,11 @@ contador = 0
 for x in lista:
     if len(x) >= 5:
         contador +=1
+        
+print("REALIZADO EM FOR - Existem " + str(contador) + " palavras com 5 ou mais caracteres.")
 
-print("Existem " + str(contador) + " palavras com 5 ou mais caracteres.")
+vetor = [x for x in lista if len(x) >= 5]
+print("REALIZADO EM COMPREHENSION - Existem " + str(len(vetor)) + " palavras com 5 ou mais caracteres.")
 
 print("------------------------")
 # 5) Usando list comprehension, crie uma lista com os multiplos de 3 de 0 ate 100

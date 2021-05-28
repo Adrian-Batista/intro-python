@@ -64,7 +64,7 @@ print("REALIZADO EM COMPREHENSION - Existem " + str(len(vetor)) + " palavras com
 
 print("------------------------")
 # 5) Usando list comprehension, crie uma lista com os multiplos de 3 de 0 ate 100
-multiplos = [i * 3 for i in range(100)]
+multiplos = [i * 3 for i in range(0,100)]
 
 print('Multiplos:')
 for i in multiplos:

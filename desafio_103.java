@@ -1,3 +1,10 @@
+
+/*
+DESAFIO!!!
+Implemente um algoritmo para inverter a ordem de uma string em sua
+linguagem de programacao favorita. Nao use funcoes/metodos prontos.
+*/
+
 public class main {
     public static void main(String[] args) {
 		
